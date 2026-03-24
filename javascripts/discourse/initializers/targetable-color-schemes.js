@@ -3,7 +3,7 @@ export default {
   
   initialize(container) {
 
-    this.container = container.lookup("session:main");
+    this.container = container.lookup("service:session");
     
     const colorScheme = this.container.userColorSchemeId;
     const darkScheme = this.container.userDarkSchemeId;       
